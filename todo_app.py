@@ -106,6 +106,10 @@ clear_button.pack(pady=5)
 exit_button = tk.Button(root, text="Exit", width=20, command=exit_app)
 exit_button.pack(pady=5)
 
+# Create a label to display a "Thank you for using" message at the bottom
+thank_you_label = tk.Label(root, text="Thank you for using!", font=("Arial", 10))
+thank_you_label.pack(pady=10)
+
 # Load tasks from the file on startup
 load_tasks()
 
