@@ -122,6 +122,6 @@ The project follows standard Git best practices, including branching, merging, a
 ---
 
 ### **Contributors**
-- **[Kaushal Darji]**  
-  GitHub: (https://github.com/kaushaldarji7182)
+- **Kaushal Darji**  
+  GitHub: https://github.com/kaushaldarji7182
 
