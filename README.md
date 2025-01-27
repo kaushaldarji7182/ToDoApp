@@ -24,10 +24,10 @@ The project follows standard Git best practices, including branching, merging, a
 
 1. **Branching Strategy**:
    - `main`: Stable branch with production-ready code.
-   - `feature/initial-development`: Core functionality development.
-   - `feature-test`: Testing and enhancements.
-   - `bugfix/issue-1`: Bug fixes.
-   - `feature/new-ui`: Major redesign for UI/UX.
+   - `feature`: Core functionality development.
+   - `feature -test`: Testing and enhancements.
+   - `feature3`: Bug fixes.
+  
 
 2. **Key Milestones**:
    - **Feature Branches**: Used for isolated development of new features.
@@ -74,9 +74,9 @@ The project follows standard Git best practices, including branching, merging, a
    ```
 
 #### **Development**
-1. Create a new branch for features:
+1. Create a new branch for features
    ```bash
-   git checkout -b feature/initial-development
+   git checkout -b feature
    ```
 2. Regularly commit changes with meaningful messages:
    ```bash
